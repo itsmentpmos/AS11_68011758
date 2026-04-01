@@ -1,0 +1,80 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    transition: background-color 0.4s ease;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== IMAGE GRID ===== */
+.image-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect บนรูปภาพ */
+.image-grid img:hover {
+    transform: scale(1.08);
+    opacity: 0.85;
+}
+
+/* ===== BUTTON GROUP ===== */
+.button-group {
+    margin-top: 10px;
+}
+
+/* ===== BUTTON BASE ===== */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effect บนปุ่ม */
+button:hover {
+    opacity: 0.4;
+}
+
+/* ===== BUTTON COLORS (แสงอ่อน ตาม Assignment 11) ===== */
+.red-btn {
+    background-color: #ff9999;   /* แดงอ่อน */
+    color: white;
+}
+
+.green-btn {
+    background-color: #99d999;   /* เขียวอ่อน */
+    color: white;
+}
+
+.blue-btn {
+    background-color: #3399ff;   /* ฟ้าอ่อน */
+    color: white;
+}
